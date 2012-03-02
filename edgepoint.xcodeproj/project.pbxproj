@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31056654150062CF00E81CD9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31056653150062CF00E81CD9 /* UIKit.framework */; };
+		31056656150062CF00E81CD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31056655150062CF00E81CD9 /* Foundation.framework */; };
+		31056658150062CF00E81CD9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31056657150062CF00E81CD9 /* CoreGraphics.framework */; };
+		3105665E150062CF00E81CD9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3105665C150062CF00E81CD9 /* InfoPlist.strings */; };
+		31056660150062CF00E81CD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3105665F150062CF00E81CD9 /* main.m */; };
+		3105666A150062CF00E81CD9 /* MainInterface.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31056668150062CF00E81CD9 /* MainInterface.xib */; };
+		310566721500633600E81CD9 /* RadialIntersectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 310566711500633600E81CD9 /* RadialIntersectionView.m */; };
+		310566751500635E00E81CD9 /* BackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 310566741500635E00E81CD9 /* BackgroundView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3105664F150062CF00E81CD9 /* edgepoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = edgepoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31056653150062CF00E81CD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31056655150062CF00E81CD9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31056657150062CF00E81CD9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3105665B150062CF00E81CD9 /* edgepoint-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "edgepoint-Info.plist"; sourceTree = "<group>"; };
+		3105665D150062CF00E81CD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3105665F150062CF00E81CD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31056661150062CF00E81CD9 /* edgepoint-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "edgepoint-Prefix.pch"; sourceTree = "<group>"; };
+		31056669150062CF00E81CD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainInterface.xib; sourceTree = "<group>"; };
+		310566701500633600E81CD9 /* RadialIntersectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadialIntersectionView.h; sourceTree = "<group>"; };
+		310566711500633600E81CD9 /* RadialIntersectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadialIntersectionView.m; sourceTree = "<group>"; };
+		310566731500635E00E81CD9 /* BackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundView.h; sourceTree = "<group>"; };
+		310566741500635E00E81CD9 /* BackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3105664C150062CF00E81CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31056654150062CF00E81CD9 /* UIKit.framework in Frameworks */,
+				31056656150062CF00E81CD9 /* Foundation.framework in Frameworks */,
+				31056658150062CF00E81CD9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31056644150062CE00E81CD9 = {
+			isa = PBXGroup;
+			children = (
+				31056659150062CF00E81CD9 /* edgepoint */,
+				31056652150062CF00E81CD9 /* Frameworks */,
+				31056650150062CF00E81CD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31056650150062CF00E81CD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3105664F150062CF00E81CD9 /* edgepoint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31056652150062CF00E81CD9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31056653150062CF00E81CD9 /* UIKit.framework */,
+				31056655150062CF00E81CD9 /* Foundation.framework */,
+				31056657150062CF00E81CD9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31056659150062CF00E81CD9 /* edgepoint */ = {
+			isa = PBXGroup;
+			children = (
+				31056668150062CF00E81CD9 /* MainInterface.xib */,
+				3105665A150062CF00E81CD9 /* Supporting Files */,
+				310566701500633600E81CD9 /* RadialIntersectionView.h */,
+				310566711500633600E81CD9 /* RadialIntersectionView.m */,
+				310566731500635E00E81CD9 /* BackgroundView.h */,
+				310566741500635E00E81CD9 /* BackgroundView.m */,
+			);
+			path = edgepoint;
+			sourceTree = "<group>";
+		};
+		3105665A150062CF00E81CD9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3105665B150062CF00E81CD9 /* edgepoint-Info.plist */,
+				3105665C150062CF00E81CD9 /* InfoPlist.strings */,
+				3105665F150062CF00E81CD9 /* main.m */,
+				31056661150062CF00E81CD9 /* edgepoint-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3105664E150062CF00E81CD9 /* edgepoint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3105666D150062CF00E81CD9 /* Build configuration list for PBXNativeTarget "edgepoint" */;
+			buildPhases = (
+				3105664B150062CF00E81CD9 /* Sources */,
+				3105664C150062CF00E81CD9 /* Frameworks */,
+				3105664D150062CF00E81CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = edgepoint;
+			productName = edgepoint;
+			productReference = 3105664F150062CF00E81CD9 /* edgepoint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31056646150062CE00E81CD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 31056649150062CE00E81CD9 /* Build configuration list for PBXProject "edgepoint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31056644150062CE00E81CD9;
+			productRefGroup = 31056650150062CF00E81CD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3105664E150062CF00E81CD9 /* edgepoint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3105664D150062CF00E81CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3105665E150062CF00E81CD9 /* InfoPlist.strings in Resources */,
+				3105666A150062CF00E81CD9 /* MainInterface.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3105664B150062CF00E81CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31056660150062CF00E81CD9 /* main.m in Sources */,
+				310566721500633600E81CD9 /* RadialIntersectionView.m in Sources */,
+				310566751500635E00E81CD9 /* BackgroundView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3105665C150062CF00E81CD9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3105665D150062CF00E81CD9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31056668150062CF00E81CD9 /* MainInterface.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31056669150062CF00E81CD9 /* en */,
+			);
+			name = MainInterface.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3105666B150062CF00E81CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3105666C150062CF00E81CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3105666E150062CF00E81CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "edgepoint/edgepoint-Prefix.pch";
+				INFOPLIST_FILE = "edgepoint/edgepoint-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3105666F150062CF00E81CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "edgepoint/edgepoint-Prefix.pch";
+				INFOPLIST_FILE = "edgepoint/edgepoint-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31056649150062CE00E81CD9 /* Build configuration list for PBXProject "edgepoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3105666B150062CF00E81CD9 /* Debug */,
+				3105666C150062CF00E81CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3105666D150062CF00E81CD9 /* Build configuration list for PBXNativeTarget "edgepoint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3105666E150062CF00E81CD9 /* Debug */,
+				3105666F150062CF00E81CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31056646150062CE00E81CD9 /* Project object */;
+}
